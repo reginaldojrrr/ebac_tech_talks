@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -16,11 +17,84 @@
         <div class="container">
             <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
             <p class="hero__text">
-                O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
+                O maior evento de tecnologia do Brasil começa em: <span id="counter"></span>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partirde R$ 120,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/12/2023 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
         </div>
     </header>
 
+    <section class="event event--frontend">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quasi beatae architecto libero
+                    eos? Sequi doloremque eius porro modi quia voluptas assumenda! Numquam, consectetur! Nisi sit non
+                    corporis porro harum!
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontv2.png" alt="Front-end" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        </div>
+    </section>
+    <section class="event event--ui-ux event--image-left">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">UI/UX</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quasi beatae architecto libero
+                    eos? Sequi doloremque eius porro modi quia voluptas assumenda! Numquam, consectetur! Nisi sit non
+                    corporis porro harum!
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Front-end" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quasi beatae architecto libero
+                    eos? Sequi doloremque eius porro modi quia voluptas assumenda! Numquam, consectetur! Nisi sit non
+                    corporis porro harum!
+                </p>
+            </div>
+            <img class="event__image" src="./images/datav2.png" alt="Front-end" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-end</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quasi beatae architecto libero
+                    eos? Sequi doloremque eius porro modi quia voluptas assumenda! Numquam, consectetur! Nisi sit non
+                    corporis porro harum!
+                </p>
+            </div>
+            <img class="event__image" src="./images/backv2.png" alt="Front-end" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 
